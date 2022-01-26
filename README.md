@@ -1,5 +1,5 @@
 # Component-library
-This component library includes - 
+Component library includes - 
 Avatar
 Alert
 Badge
