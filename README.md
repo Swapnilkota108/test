@@ -1,9 +1,9 @@
 # Component-library
 Component library includes - 
-Avatar
-Alert
-Badge
-Button
-Card
-Image
-Input
+</br><li>Avatar
+</br><li>Alert
+</br><li>Badge
+</br><li>Button
+</br><li>Card
+</br><li>Image
+</br><li>Input
