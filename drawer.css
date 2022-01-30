@@ -1,0 +1,30 @@
+/* aside */
+
+.drawer{
+    border-right: 2px solid var(--halfed-border-color);
+    width: var(--side-width);
+    height: 100%;
+    overflow: scroll;
+}
+
+.drawer_elements{
+    padding: 10px;
+} 
+
+.drawer_elements h1,h2{
+    margin-left: 40px;
+}
+
+.drawer_elements h2{
+    color: rgb(78, 77, 77);
+    padding-left: 8px;
+    width: 120px;
+    border-radius: 10px;
+    
+}
+
+.drawer_elements h2:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+    background-color: var(--hover-background);
+}

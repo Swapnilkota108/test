@@ -1,0 +1,73 @@
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(150, 150, 150, 0.319);
+}
+
+.navbar_contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+} 
+
+
+.navbar_list{
+    display: flex;
+    width: 60%;
+    list-style: none;
+    align-items: center;
+    font-size: 28px;
+    color: rgb(78, 77, 77);
+}
+
+
+.navbar_list li{
+    margin: 0 25px 0;
+}
+
+.navbar_list li:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.navbar_icons{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    list-style: none;
+    align-items: center;
+    color: rgba(78, 78, 79, 0.775);
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.navbar_icons li{   
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.navbar_icons li:hover{
+    color: rgb(233, 64, 87);
+    cursor: pointer
+}
+
+.logo{
+    height: 100%;
+    width: var(--side-width);
+    font-size: 35px;
+    background:linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33));
+    background-clip: text;
+    color:transparent;
+    display: flex;
+    margin-left:40px ;
+    align-items: center;
+    font-family: 'Dancing Script';
+}
+
+.main_body{
+    height: 88%;
+    width: 100%;
+}

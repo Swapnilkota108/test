@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
+@import url(drawer.css);
+:root{
+    --theme-gradient:linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33));
+    --primary-color:rgb(233, 64, 87);
+    --side-width:260px;
+    --halfed-border-color:rgba(150, 150, 150, 0.319);
+    --hover-background:rgba(233, 64, 87, 0.163);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    height: 100vh;
+    font-family: 'Dongle', sans-serif;
+}
+
+.navbar{
+    background:var(--theme-gradient);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+} 
+
+
+.navbar_list{
+    display: flex;
+    width: 60%;
+    list-style: none;
+    align-items: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.navbar_list li{
+    margin: 0 25px 0;
+}
+
+.navbar_list li:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.navbar_icons{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    list-style: none;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.navbar_icons li{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.navbar_icons li:hover{
+   color: rgb(240, 236, 236);
+    cursor: pointer
+}
+
+.logo{
+    height: 100%;
+    width: var(--side-width);
+    font-size: 35px;
+    background-clip: text;
+    color: #fff;
+    display: flex;
+    margin-left:40px ;
+    align-items: center;
+    font-family: 'Dancing Script';
+}
+
+.main_body{
+    height: 88%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*intro-box*/
+.intro_box{
+    height: 500px;
+    width: 500px;
+    background: var(--hover-background);
+    margin: 25px;
+    border-radius: 10px;
+}
+
+
+
+
