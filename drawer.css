@@ -1,6 +1,6 @@
 /* aside */
 
-.drawer{
+.drawer_container{
     border-right: 2px solid var(--halfed-border-color);
     width: var(--side-width);
     height: 100%;
