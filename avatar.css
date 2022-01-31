@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+
+.avatar_container{
+    font-family: 'Dongle', sans-serif;
+    height: 100%;
+    width: 95%;
+    margin: 10px;
+}
+   .avatar_container-heading{
+       font-size: 20px;
+       height: 20%;
+       margin: 10px;
+    }
+        .avatar_container-heading h1{
+            height: 40px;
+        }
+
+        .avatar_container-heading h2{
+        color: rgb(133, 133, 133);
+        }
+
+    .avatar_container-avatars{
+        height: 80%;
+       display: flex;
+       flex-direction: column;
+    }     
+       .avatar_box{
+           height: 1230px;
+           display: flex;
+           flex-direction: column;
+
+       }
+
+       .avatar{
+           height: 50px;
+           width: 50px;  
+           background: #fff;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+          border-radius: 50%;
+           margin: 10px;
+           background-size: cover;
+       }
+
+       .square{
+           border-radius: 10%;
+       }
+       
+       .avatar_image_container{
+           display: flex;
+           background: rgba(144, 142, 142, 0.564);
+           justify-content: center;
+           align-items: center;
+       }
