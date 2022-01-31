@@ -1,0 +1,93 @@
+.button_container-btns{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}   
+    .btn{
+        height: 40px;
+        width: 75px;
+        border: none;
+        border-radius: 0;
+        cursor: pointer;
+    }
+        .btn-primary{
+            color: #fff;
+            background-color:#775ada ;
+        }
+        .btn-secondary{
+            color: #000;
+        }
+        .btn-error{
+            color: #fff;
+            background-color:#ff304f ;
+        }
+        .btn-success{
+            color: #fff;
+            background-color:#2cb978 ;
+        }
+
+        .btn-round{
+            border-radius: 10px;
+        }
+
+        .btn-outline{
+           background-color: white;
+        }
+
+        .btn_outline-primary{
+            border: 2px solid #775ada;
+            color: #775ada;
+        }
+        .btn_outline-secondary{
+            border: 2px solid #000;
+            color: #000;
+        }
+        .btn_outline-error{
+            border: 2px solid #ff304f;
+            color: #ff304f;
+        }
+        .btn_outline-success{
+            border: 2px solid #2cb978;
+            color: #2cb978;
+        }
+
+        .btn-link{
+            background-color: #775ada;
+           
+        }
+
+    .btn-link a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .btn-icon{
+        width: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #fff;
+        background-color: #2f89fc;
+    }
+    
+    .btn-icon svg{
+       height: 20px;
+       width: 20px;
+    }
+
+
+    .btn-float{
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-float svg{
+        height: 20px;
+        width: 20px;
+    }
