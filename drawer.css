@@ -5,6 +5,7 @@
     width: var(--side-width);
     height: 100%;
     overflow: scroll;
+    color: var(--heading-colors);
 }
 
 .drawer_elements{
@@ -13,10 +14,11 @@
 
 .drawer_elements h1,h2{
     margin-left: 40px;
+
 }
 
 .drawer_elements h2{
-    color: rgb(78, 77, 77);
+    color: var(--component-text-color);
     padding-left: 8px;
     width: 120px;
     border-radius: 10px;
